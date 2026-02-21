@@ -35,3 +35,29 @@
         }
     }
 
+
+
+    // For Each Loop in Arrays..
+    // arr.forEach(callBackFunction)
+    // arr.forEach((val) => {
+        // console.log(val);
+        // }) \
+
+  let arr = [1, 2, 3, 4, 5];
+  arr.forEach((val) => {
+    console.log(val);
+  });
+
+
+  let str = ["BTM", "Pune", "Delhi"];
+  str.forEach((val, idx, str) => {
+    console.log(val.toUpperCase(), idx, str);
+  });
+
+
+//    Q
+
+let num = [1, 2, 3, 4, 5];
+num.forEach((num) => {
+    console.log(num * num);
+});
