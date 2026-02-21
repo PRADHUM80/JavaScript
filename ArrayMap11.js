@@ -52,3 +52,16 @@
         });
 
         console.log(output1);
+
+
+        // Q
+
+        // let n = prompt("Enter a number: ");
+
+        // let arr3 = [];
+
+        // for(let i = 1; i <= n; i++) {
+        //     arr3(i -1) = i;
+
+        // }
+        // console.log(arr3);
